@@ -20,14 +20,16 @@ h1 {
     text-align: center;
 }
 
-legend {
+.main-legend {
     color: green;
     text-align: center;
 }
 
+legend {
+    margin: .25rem 0;
+}
+
 label {
-    display: block;
-    padding: .2rem;
     margin: .25rem;
 }
 
@@ -35,7 +37,7 @@ input[type="text"], textarea, select {
     width: 100%;
     border: 1px solid black;
     border-radius: .25rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     padding: .25rem;
 }
 
