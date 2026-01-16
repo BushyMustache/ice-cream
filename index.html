@@ -12,7 +12,7 @@
         <h1>Ice Cream Order Form</h1>
         <form id="icecream-form" action="#" method="get">
             <fieldset>
-                <legend class="main-legend">Personal Information</legend>
+                <legend>Personal Information</legend>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name">
                 <label for="email">Email:</label>
@@ -20,15 +20,15 @@
             </fieldset>
 
             <fieldset>
-                <legend class="main-legend">Order Details</legend>
-                <legend>Choose your flavor</legend>
+                <legend>Order Details</legend>
+                <small>Choose your flavor</small>
                 <select id="flavor" name="flavor">
                     <option value="vanilla">Vanilla</option>
                     <option value="chocolate">Chocolate</option>
                     <option value="mint">Mint</option>
                 </select> 
 
-                <legend>Choose your cone:</legend>
+                <small>Choose your cone:</small>
                 <label for="waffle">
                     <input type="radio" id="waffle" value="waffle" name="cone">Waffle Cone
                 </label>
@@ -39,7 +39,7 @@
                     <input type="radio" id="cup" value="cup" name="cone">Cup
                 </label>
 
-                <legend>Toppings:</legend>
+                <small>Toppings:</small>
                 <label for="sprinkles">
                     <input type="checkbox" id="sprinkles" value="sprinkles" name="toppings[]">Sprinkles
                 </label>
